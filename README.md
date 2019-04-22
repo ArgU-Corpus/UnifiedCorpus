@@ -15,7 +15,7 @@ These are the steps for executing the parser:
 4. Run the "CorpusParserStanalone.py" with python [your directory]/arguEParser/CorpusParserStanalone.py
 5. Find the converted corpora in the outputCorpora directory.
 
-This project also offers as second parser, that converts the created output (XLM) into a JSON format, that can be loaded into the annotation tool OVA (http://ova.arg-tech.org/) for further analysis or annotations of the arguments.
+This project also offers a second parser, that converts the created output (XLM) into a JSON format, that can be loaded into the annotation tool OVA (http://ova.arg-tech.org/) for further analysis or annotations of the arguments.
 
 To execute the second parser execute the following line:
 
