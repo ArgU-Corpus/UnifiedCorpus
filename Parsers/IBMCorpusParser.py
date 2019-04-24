@@ -147,7 +147,7 @@ class IBMCorpusParser:
                     relation = etree.Element('Relation')
                     relation.set("relationID", self.relationDict[claimKey]["relationID"])
                     relation.set("type", self.relationDict[claimKey]["type"])
-                    relation.set("typeBinary", self.relationDict[claimKey]["label"])
+                    relation.set("stance", self.relationDict[claimKey]["label"])
                     relation.set("partnerID", str(self.relationDict[claimKey]["to"]))
                     proposition.append(relation)
 
@@ -173,7 +173,7 @@ class IBMCorpusParser:
                             relation = etree.Element('Relation')
                             relation.set("relationID", self.relationDict[premiseKey]["relationID"])
                             relation.set("type", self.relationDict[premiseKey]["type"])
-                            relation.set("typeBinary", self.relationDict[premiseKey]["label"])
+                            relation.set("stance", self.relationDict[premiseKey]["label"])
                             relation.set("partnerID", str(self.relationDict[premiseKey]["to"]))
                             proposition.append(relation)
 
