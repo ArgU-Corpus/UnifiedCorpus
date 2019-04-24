@@ -119,7 +119,7 @@ class BratParser:
                             relation = etree.Element('Relation')
                             relation.set("relationID", self.relationDict[relationKey]["relationID"])
                             relation.set("type", self.relationDict[relationKey]["type"])
-                            relation.set("typeBinary", self.relationDict[relationKey]["label"])
+                            relation.set("stance", self.relationDict[relationKey]["label"])
                             relation.set("partnerID", self.relationDict[relationKey]["to"])
                             proposition.append(relation)
 
