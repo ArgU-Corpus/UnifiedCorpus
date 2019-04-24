@@ -1,6 +1,6 @@
 # ArgumentationCorpusParser
 
-This parser allows the user to parse certain argumentation corpora into a unified model and format. The parser supports the following corpora:
+This parser allows the user to parse certain argumentation corpora into a unified model and format (please see "exampleOutputFile.xml" for an example) . The parser supports the following corpora:
 
 1. Any corpus from the AIF-DB (http://corpora.aifdb.org/) such as AraucariaDB, Microtext, RRD
 2. The CE-EMNLP-15 corpus from the IBM Debating Technologies Datasets (https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml)
