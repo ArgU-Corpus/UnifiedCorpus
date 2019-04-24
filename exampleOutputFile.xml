@@ -1,0 +1,15 @@
+<Annotation corpus="Araucaria">
+    <Proposition id="225">
+        <ADU type="conclusion"/>
+        <Text>Roger Federer is the best tennis player in history</Text>
+        <TextPosition start="0" end="50"/>
+    </Proposition>
+    <Proposition id="256">
+        <ADU type="premise"/>
+        <Text>he won 19 Grand Slam titles</Text>
+        <TextPosition start="60" end="84"/>
+        <Relation relationID="258" type="Default Inference" stance="0" partnerID="255"/>
+    </Proposition>
+    <OriginalText>Roger Federer is the best tennis player in history, because he won 19 Grand Slam tites.
+    </OriginalText>
+</Annotation>
